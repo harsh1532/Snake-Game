@@ -1,6 +1,15 @@
-#gameContainer{
+body{
+    
+    background-color: rgb(47, 115, 49);
+
+}
+.gameContainer{
     text-align: center;
-    background-color: rgb(244, 144, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
    
 #gameBoard{
